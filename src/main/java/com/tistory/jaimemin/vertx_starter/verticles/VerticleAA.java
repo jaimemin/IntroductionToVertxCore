@@ -1,4 +1,4 @@
-package com.tistory.jaimemin.verticles;
+package com.tistory.jaimemin.vertx_starter.verticles;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Promise;

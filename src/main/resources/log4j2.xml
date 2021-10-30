@@ -7,7 +7,7 @@
   </Appenders>
   <Loggers>
 
-    <Logger name="com.tistory.jaimemin" level="INFO" />
+    <Logger name="com.tistory.jaimemin" level="DEBUG" />
 
     <Root level="INFO">
       <AppenderRef ref="Console"/>
