@@ -17,7 +17,7 @@ public class PingPongExample {
   private static Handler<AsyncResult<String>> logOnError() {
     return ar -> {
       if (ar.failed()) {
-        LOG.error("error: ", ar.cause());
+        LOG.error("error message: ", ar.cause());
       }
     };
   }
